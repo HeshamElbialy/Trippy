@@ -1,0 +1,65 @@
+.contact h1 {
+  animation: fadeInDown 2s;
+  -webkit-animation: fadeInDown 2s;
+}
+
+.contact ul li {
+  padding: 15px;
+  animation: fadeInUp 2s 0s;
+  -webkit-animation: fadeInUp 2s 0s;
+}
+
+.contact ul li input {
+  width: 600px;
+  padding: 10px;
+  border: none;
+  outline: none;
+
+  border-bottom: 1px solid #777;
+}
+
+.contact ul li input:focus {
+  outline: none;
+}
+
+.contact ul li textarea {
+  width: 600px;
+  padding: 10px;
+  border: none;
+  outline: none;
+  border-bottom: 1px solid #777;
+}
+
+.contact ul .flat-button {
+  font-weight: bold;
+  border: none;
+  transition: all 0.3s ease-in-out;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+}
+
+.contact ul .flat-button:hover {
+  color: #fff;
+  background: #000000;
+}
+
+@media screen and (max-width: 600px) {
+  .contact h1 {
+    font-size: 30px;
+  }
+  .contact ul li input {
+    width: 300px;
+    padding: 10px;
+  }
+  .contact ul li textarea {
+    width: 300px;
+    padding: 10px;
+  }
+}
